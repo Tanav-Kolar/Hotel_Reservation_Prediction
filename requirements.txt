@@ -2,3 +2,6 @@ numpy
 pandas
 logging
 setuptools
+google-cloud-storage
+scikit-learn
+pyyaml

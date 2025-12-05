@@ -7,7 +7,7 @@ class CustomException(Exception):
         self.error_message = self.get_detailed_error_message(error_message, error_detail)
 
     @staticmethod
-    def get_detailed_error_message(self, error_message: str, error_detail: sys) -> str:
+    def get_detailed_error_message(error_message: str, error_detail: sys) -> str:
 
         _, _, exc_tb = error_detail.exc_info()
         line_number = exc_tb.tb_lineno if exc_tb else 'Unknown'
